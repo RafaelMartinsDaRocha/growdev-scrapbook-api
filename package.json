@@ -16,7 +16,7 @@
     "express": "^4.17.3"
   },
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only ./src/rotes/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
     "build": "tsc",
     "start": "node ./dist"
   }

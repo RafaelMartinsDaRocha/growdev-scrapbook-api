@@ -1,7 +1,7 @@
 import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
-import { errands } from '../datas/data';
-import { validateFields, validateId, verifyId } from '../middlewares/middleware';
+import { errands } from './datas/data';
+import { validateFields, validateId, verifyId } from './middlewares/middleware';
 
 const app = express();
 
